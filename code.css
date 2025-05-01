@@ -1,0 +1,22 @@
+body {
+  margin: 0; /* Remove default body margins */
+  overflow: hidden; /* Prevent scrollbars as p5.js handles scrolling */
+  background-color: #ffe4bf; /* Set background color */
+  font-family: 'Times New Roman', serif; /* Set default font */
+}
+
+/* Style for the search input (when visible)  More specific styles in JS */
+#searchInput { 
+ /* ... Add any desired default styles */
+}
+
+/* Example to style the "Entrer" button - BUT handled better in JS*/
+button {
+ /*  Add general button styles here... */
+}
+
+
+
+canvas {
+  display: block; /* Prevent spacing below the canvas */
+}
